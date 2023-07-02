@@ -28,7 +28,7 @@ function distributeRoles() {
   }
 
   // Перемешиваем массивы
-  agents.sort(() => Math.random() - 0.5);
+  agents.sort(() => Math.random() - 0.4);
   group.sort(() => Math.random() - 0.5);
 
   // Рассылаем роли пользователям в личном сообщении
